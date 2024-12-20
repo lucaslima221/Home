@@ -99,6 +99,18 @@
         }
 
     </style>
+
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "23eeae82-7082-4e0d-970b-7a1b79a42fb4",
+    });
+  });
+</script>
+
+    
 </head>
 <body>
 
